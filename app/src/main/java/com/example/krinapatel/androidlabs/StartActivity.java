@@ -13,7 +13,7 @@ public class StartActivity extends Activity {
     private Button ImButton;
     private Button StartChat;
     private int requestCode;
-
+    private Button WeatherForecast;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +36,14 @@ public class StartActivity extends Activity {
                startActivityForResult(secondIntent, 50);
            }
        });
+        WeatherForecast = (Button)findViewById(R.id.buttonWeather);
+        WeatherForecast.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent secondIntent = new Intent(StartActivity.this,WeatherForcast.class);
+                startActivityForResult(secondIntent, 50);
+            }
+        });
 
     }
 

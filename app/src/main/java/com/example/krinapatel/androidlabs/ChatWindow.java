@@ -18,8 +18,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import java.util.ArrayList;
 
-public class ChatWindow extends Activity {
-    private static final String ACTIVITY_NAME = "ChatWindow";
+public class ChatWindow extends Activity { private static final String ACTIVITY_NAME = "ChatWindow";
 private EditText ChatEditText;
 private Button buttonSend;
 private ListView listMessages;

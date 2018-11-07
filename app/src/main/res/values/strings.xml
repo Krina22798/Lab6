@@ -22,5 +22,6 @@
     <string name="ImageView3">New Text</string>
     <string name="TextView6">New Text</string>
     <string name="ImageView5">New Text3</string>
+    <string name ="showweather">show weather</string>
 
 </resources>
